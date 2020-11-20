@@ -4,7 +4,7 @@ spirng:
 ---
 spring:
   profiles: dev
-  application: ''
+  application:
   name: springcloud-config-test
 eureka:
   client:
@@ -13,7 +13,7 @@ eureka:
 ---
 spring:
   profiles: test
-  application: ''
+  application:
   name: springcloud-config-test
 eureka:
   client:
