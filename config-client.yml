@@ -7,7 +7,7 @@ server:
 spring:
   profiles: dev
   application:
-  name: springcloud-config-test
+  name: springcloud-config-dev
 eureka:
   client:
     service-url:
