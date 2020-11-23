@@ -32,7 +32,6 @@ mybatis:
   type-aliases-package: com.lghonor.springcloud.pojo
   config-location: classpath:mybatis/mybatisconfig.xml
   mapper-locations: classpath:mybatis/mapper/*Mapper.xml
-
 ---
 mybatis:
   type-aliases-package: com.lghonor.springcloud.pojo
@@ -59,7 +58,5 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
     instance-id: springcloud-config-dept8001
-info:
-  app.name: springcloud-lg
-  company.name: spingcloud-lghonor
+
 
